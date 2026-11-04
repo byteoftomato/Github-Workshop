@@ -2,12 +2,12 @@
 
 Welcome! Each of the 20 C files contains **one small intentional bug**. Pick an assigned file, fix the bug, run it until it prints `PASS`, and contribute your change.
 
-## Before the session
-- Have a GitHub account and Git installed (or use GitHub's browser editor if you are not compiling locally).
-- For local testing, have a C compiler such as GCC available.
+## Before starting
+- Have a GitHub account and Git installed 
+- For local testing, have a C compiler such as GCC available
 - Workshop repo: https://github.com/byteoftomato/Github-Workshop
 
-## Suggested group workflow (branch + pull request)
+## Suggested steps (branch + pull request)
 1. Clone: `git clone https://github.com/byteoftomato/Github-Workshop.git`
 2. Enter directory: `cd Github-Workshop`
 3. Create a unique branch: `git switch -c fix/01-yourname` (replace `01` and `yourname`).
@@ -18,11 +18,9 @@ Welcome! Each of the 20 C files contains **one small intentional bug**. Pick an 
 8. `git add 01_add_two_numbers.c`
 9. `git commit -m "Fix exercise 01: add two numbers"`
 10. `git push -u origin fix/01-yourname`
-11. On GitHub, open a pull request from your branch into `main`. Wait for the facilitator to review/merge.
+11. On GitHub, open a pull request from your branch into `main`. Wait for me to review/merge.
 
 **If you cannot push** because you are not a repository collaborator, fork the workshop repo on GitHub, clone your fork instead, push to your fork, and open a pull request into the original repository's `main` branch.
-
-**Browser-only alternative:** fork the repo, edit your assigned file on your fork, commit to a new branch, then open a pull request. You won't be able to verify `PASS` in the browser editor alone.
 
 ## Exercise list
 
@@ -48,10 +46,3 @@ Welcome! Each of the 20 C files contains **one small intentional bug**. Pick an 
 | `18_rectangle_perimeter.c` | rectangle perimeter |
 | `19_seconds_to_minutes.c` | seconds to minutes |
 | `20_last_digit.c` | last digit |
-
-## Facilitator setup
-- Upload the starter files and this README to `main` before attendees clone it.
-- Assign a **different** file number to each learner (or each pair).
-- Prefer pull requests over all participants committing directly to `main`: the latter requires write access and can create race conditions.
-- Demonstrate one pull request, then merge submissions live and refresh the repository's commit history.
-- **Do not upload the facilitator answer key** to the student repository until after the workshop.
