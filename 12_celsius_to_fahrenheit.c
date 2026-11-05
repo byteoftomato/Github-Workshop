@@ -3,7 +3,7 @@
 static int celsius_to_fahrenheit(int c)
 {
     /* There is one intentionally small bug in this function. */
-    return (c * 9 / 5) - 32;
+    return (c * 9 / 5) + 32;
 }
 
 int main(void)
