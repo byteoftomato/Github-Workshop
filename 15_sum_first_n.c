@@ -3,7 +3,7 @@
 static int sum_first_n(int n)
 {
     /* There is one intentionally small bug in this function. */
-    return n * (n - 1) / 2;
+    return n * (n + 1)/ 2;
 }
 
 int main(void)
