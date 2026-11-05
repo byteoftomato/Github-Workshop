@@ -3,7 +3,8 @@
 static int next_number(int n)
 {
     /* There is one intentionally small bug in this function. */
-    return n - 1;
+    // return n - 1;
+    return n + 1;
 }
 
 int main(void)
