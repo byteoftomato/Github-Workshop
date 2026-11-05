@@ -3,7 +3,8 @@
 static int add_two_numbers(int a, int b)
 {
     /* There is one intentionally small bug in this function. */
-    return a - b;
+    //return a - b;
+    return a + b;
 }
 
 int main(void)
