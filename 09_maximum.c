@@ -3,7 +3,7 @@
 static int maximum(int a, int b)
 {
     /* There is one intentionally small bug in this function. */
-    return a < b ? a : b;
+    return a > b ? a : b;
 }
 
 int main(void)
