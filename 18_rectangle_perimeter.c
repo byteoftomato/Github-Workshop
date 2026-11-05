@@ -3,7 +3,7 @@
 static int rectangle_perimeter(int width, int height)
 {
     /* There is one intentionally small bug in this function. */
-    return width + height;
+    return 2 * (width + height);
 }
 
 int main(void)
