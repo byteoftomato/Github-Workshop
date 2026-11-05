@@ -3,7 +3,7 @@
 static int is_even(int n)
 {
     /* There is one intentionally small bug in this function. */
-    return n % 2 != 0;
+    return n % 2 == 0;
 }
 
 int main(void)
