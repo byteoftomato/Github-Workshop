@@ -3,7 +3,7 @@
 static int absolute_value(int n)
 {
     /* There is one intentionally small bug in this function. */
-    return n < 0 ? n : -n;
+    return n < 0 ? -n : n;
 }
 
 int main(void)
